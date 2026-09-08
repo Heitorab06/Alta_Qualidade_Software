@@ -1,5 +1,7 @@
 import pytest
-from ..abstract import DescontoNormal, DescontoVip, DescontoPremium
+
+from src.abstract import DescontoNormal, DescontoPremium, DescontoVip
+
 
 @pytest.mark.parametrize("valor, esperado", [
     (100, 30),
