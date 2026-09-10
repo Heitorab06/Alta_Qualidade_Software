@@ -3,7 +3,7 @@ import sys
 
 import pygame
 
-from src.alien import Alien
+from alien import Alien
 
 
 class FleetManager:

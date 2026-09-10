@@ -1,7 +1,7 @@
 import pygame
 
-from src.settings import Settings
-from src.ship import Ship
+from settings import Settings # type: ignore
+from ship import Ship # type: ignore
 
 
 def test_ship_move_esquerda():

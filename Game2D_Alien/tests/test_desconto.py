@@ -1,6 +1,6 @@
 import pytest
 
-from src.abstract import DescontoNormal, DescontoPremium, DescontoVip
+from abstract import DescontoNormal, DescontoPremium, DescontoVip # type: ignore
 
 
 @pytest.mark.parametrize("valor, esperado", [
