@@ -1,7 +1,7 @@
 
 import pygame
 
-from bullet import Bullet
+from src.bullet import Bullet
 
 
 class BulletManager:
