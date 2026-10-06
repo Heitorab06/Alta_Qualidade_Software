@@ -1,4 +1,4 @@
-from desconto_app.src.models.desconto import IDesconto
+from src.app.interfaces import IDesconto
 
 
 class Pedido:
