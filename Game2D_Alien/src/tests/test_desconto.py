@@ -1,5 +1,4 @@
 import pytest
-
 from src.abstract import DescontoNormal, DescontoPremium, DescontoVip
 
 

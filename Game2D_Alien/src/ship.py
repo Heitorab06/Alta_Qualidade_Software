@@ -1,6 +1,5 @@
 import pygame
 from pygame.surface import Surface
-
 from settings import Settings
 
 

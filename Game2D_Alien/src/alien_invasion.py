@@ -1,5 +1,4 @@
 import pygame
-
 from bullet_manager import BulletManager
 from fast_alien import FastAlien
 from fleet_manager import FleetManager
