@@ -1,5 +1,4 @@
 import pygame
-
 from src.settings import Settings
 from src.ship import Ship
 
