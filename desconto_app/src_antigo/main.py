@@ -1,4 +1,4 @@
-from src.controllers.pedido_controller import PedidoController
+from desconto_app.src.app.adapters.controllers.pedido_controller import PedidoController
 from src.database.connection import DatabaseConnection
 from src.models.desconto import DescontoNormal, DescontoPremium, DescontoVIP
 from src.models.pedido import Pedido
