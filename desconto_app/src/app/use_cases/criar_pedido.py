@@ -8,7 +8,7 @@ from src.app.gateways.pedido_gateway import IPedidoGateway
 class CriarPedido:
     
     def __init__(self, pedido_gateway: IPedidoGateway):
-        self.pedido_gateway = self.pedido_gateway
+        self.pedido_gateway = pedido_gateway
         
     def executar(self, input_dto: CriarPedidoInputDTO) -> CriarPedidoOutputDTO:
         tipo_desconto = input_dto.tipo_desconto.lower().strip()
