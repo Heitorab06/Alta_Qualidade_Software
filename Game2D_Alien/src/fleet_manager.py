@@ -50,6 +50,7 @@ class FleetManager:
         """Verifica se a frota alienígena está em uma borda, então atualiza as posições de todos os alienígenas na frota."""
         self._check_fleet_edges()
         self.aliens.update()
+        self._check_ship_collision()
 
     def _check_fleet_edges(self) -> None:
         """Responde apropriadamente se algum alienígena tiver alcançado uma borda."""
